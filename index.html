@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+
+    <div class="card">
+        <h1>Login</h2>
+        <form action="./dashboard.html">
+            <label class="email">Email:<input type="email" placeholder="Enter Your Email" required></label><br><br>
+            <label>Password:<input type="password" placeholder="Enter Your Password" pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@#$!_])$" minlength="8" maxlength="12" required></label><br><br>
+            <button type="submit">Login</button><br><br>
+        </form>
+        <div class="another">Don't have an Account? <a href="./signup.html">Signup</a></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="card">
+        <h1>Signup</h1>
+        <form action="./login.html">
+            <label class="m1">Name:<input type="text" placeholder="Enter Your Name" required></label><br><br>
+            <label class="m1">Email:<input type="email" placeholder="Enter Your Email" required></label><br><br>
+            <label class="password">Password:<input type="password" placeholder="Enter Your Password" pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@#$!_]).{8}$" minlength="8" maxlength="12" required></label><br><br>
+            <label class="cnic">CNIC:<input type="text" placeholder="Enter Your CNIC" title="CNIC wil written as 12345-1234567-9"  pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}" required></label><br><br>
+            <label class="dof">D-O-F:<input type="date" required></label><br><br>
+            <label class="number">Number:<input type="number" placeholder="Enter Your Number" required></label><br><br>
+
+            <button type="submit">Login</button><br><br>
+        </form>
+        <div class="another">Already have an Account? <a href="./index.html">Login</a></div>
+    </div>
+
+
+
+</body>
+</html>

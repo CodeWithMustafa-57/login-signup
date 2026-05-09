@@ -1,0 +1,55 @@
+body{
+    background: #000;
+    color: #ffffff;
+}
+.card{
+    margin-top: 15px;
+    margin-left: 35%;
+    width: 350px;
+    padding: 20px;
+    align-items: center ;
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 12px;
+}
+.card h1{
+    text-align: center;
+}
+form input{
+    margin-left: 40px;
+    padding: 8px 20px;
+    border: 1px solid black;
+}
+.m1 input{
+    margin-left: 63px;
+}
+.cnic input{
+    margin-left: 63px;
+}
+.dof input{
+    margin-left: 60px;
+    width: 160px;
+}
+.number input{
+    margin-left: 50px;
+}
+form button{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    padding: 10px 50px;
+    border: 1px solid black;
+    background: #001757;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.another{
+    margin-left: 70px;
+}
+div a{
+    color: #ffffff;
+}
+div a:hover{
+    color: #d8d8d8;
+}
